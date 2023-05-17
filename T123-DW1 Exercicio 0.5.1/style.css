@@ -1,61 +1,89 @@
- .pendente {
-     background-color: #eee452;
-     border-radius: 10px;
-     border: 2px #eee452;
-     text-decoration: none;
- }
+.pendente {
+    background-color: #eee452;
+    border-radius: 10px;
+    border: 2px #eee452;
+    text-decoration: none;
+}
 
- .pendente-button {
-     background-color: #eee452;
-     border-radius: 10px;
-     border: 2px #eee452;
-     text-decoration: none;
- }
+:root .pendente {
+    --cor-primaria: #eee452;
+    --arredondamento: 5px;
+  }
 
- .concluida {
-     background-color: #0CA789;
-     border-radius: 10px;
-     border: 2px #0CA789;
-     text-decoration: none;
- }
+.pendente-button {
+  border: none;
+  color: #eee452;
+  padding: 10px;
+  border-radius: var(--arredondamento);
+  background-color: var(--cor-primaria);
+}
 
- .concluida-button {
-     background-color: #0CA789;
-     border-radius: 10px;
-     border: 2px #0CA789;
-     text-decoration: none;
- }
 
- .excluida {
-     background-color: #EB4045;
-     border-radius: 10px;
-     border: 2px #EB4045;
-     text-decoration: none;
- }
+.concluida {
+    background-color: #0CA789;
+    border-radius: 10px;
+    border: 2px #0CA789;
+    text-decoration: none;
+}
 
- .excluida-button {
-     background-color: #EB4045;
-     border-radius: 10px;
-     border: 2px #EB4045;
-     text-decoration: none;
- }
+:root.concluida{
+    --cor-primaria: #0ca789;
+    --arredondamento: 5px;
+  }
 
- h1 {
-     text-align: center;
+.concluida-button {
+    border: none;
+    color: #0CA789;
+    padding: 10px;
+    border-radius: var(--arredondamento);
+    background-color: var(--cor-primaria);
+}
 
- }
 
- body {
-     max-width: 700px;
-     margin: 0 auto;
-     border: 1px solid grey;
-     border-radius: 50px;
-     padding: 50px;
-     background-image: url("https://i.pinimg.com/originals/73/00/93/730093329a6007ff5a98f611d2c2ad6d.jpg");
-     background-size: cover;
+.excluida {
+    background-color: #EB4045;
+    border-radius: 10px;
+    border: 2px #EB4045;
+    text-decoration: none;
+    
+}
 
- }
+:root.excluida{
+    --cor-primaria: #eb4045;
+    --arredondamento: 5px;
+  }
 
- ul {
-     list-style: none;
- }
+.excluida-button {
+    border: none;
+    color: #EB4045;
+    padding: 10px;
+    border-radius: var(--arredondamento);
+    background-color: var(--cor-primaria);
+    
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    border-bottom: 2px dotted black;
+    font-style: italic;
+    color: MediumOrchid;
+}
+
+body {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid grey;
+    border-radius: 50px;
+    padding: 50px;
+    background-image: url("https://st3.depositphotos.com/1888461/18167/i/450/depositphotos_181679694-stock-photo-watercolor-background-pink-abstract-pastel.jpg");
+    background-size: cover;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    
+}
+
